@@ -1,7 +1,17 @@
 // Place all the styles related to the site controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+.blue-bg {
+  height: 100px;
+  background-color: rgb(24, 27, 205)
+}
 
-// "bootstrap-sprockets" must be imported before "bootstrap" and "bootstrap/variables"
-@import "bootstrap-sprockets";
-@import "bootstrap";
+.red-bg {
+  height: 100px;
+  background-color: rgb(205, 24, 24)
+}
+
+.green-bg {
+  height: 100px;
+  background-color: rgb(24, 205, 140)
+}
