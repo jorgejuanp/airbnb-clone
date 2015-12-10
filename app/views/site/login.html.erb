@@ -1,0 +1,17 @@
+<!-- app/views/contacts/new.html.erb -->
+<h1>Login</h1>
+
+<form action="/contacts" method="POST">
+  <div>
+    <label for="contact_email">Email</label>
+    <input type="email" name="contact[email]" id="contact_email">
+  </div>
+
+  <div>
+    <label for="password">Address</label>
+    <textarea name="contact[address]" id="password"></textarea>
+  </div>
+
+  <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+  <button type="submit">Login</button>
+</form>
