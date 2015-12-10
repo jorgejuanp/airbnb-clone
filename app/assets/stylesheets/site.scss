@@ -1,17 +1,17 @@
 // Place all the styles related to the site controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-.blue-bg {
-  height: 100px;
-  background-color: rgb(24, 27, 205)
+
+
+body {
+  background-color: #F5F5F5;
 }
 
-.red-bg {
-  height: 100px;
-  background-color: rgb(205, 24, 24)
+.navbar-header {
+  background-color: #fff;
+  height: 60px;
 }
 
-.green-bg {
-  height: 100px;
-  background-color: rgb(24, 205, 140)
+.navbar-brand img{
+  height: 50px;
 }

@@ -14,3 +14,52 @@
 
  @import "bootstrap-sprockets";
  @import "bootstrap";
+
+// CUSTOM CSS
+body {
+  background-color: #F5F5F5;
+}
+
+.navbar {
+  margin-bottom: 0px;
+}
+
+.navbar-header {
+  background-color: #fff;
+  height: 60px;
+}
+
+.navbar-brand img{
+  height: 30px;
+}
+
+.hero {
+  padding: 0px;
+  height: 500px;
+  background-image: url("header-img4.jpg");
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  // width: 100%;
+}
+
+.tagline {
+  margin-top:60px;
+  font-size: 56px;
+  color: #fff;
+}
+
+.hero .lead {
+  font-size: 14px;
+  color: #fff;
+}
+
+.btn-default {
+  padding: 10px 20px;
+  font-weight:bold;
+  color: #fff;
+  border: 0px solid #fff;
+  background: rgba(255,255,255,0.3);
+}
