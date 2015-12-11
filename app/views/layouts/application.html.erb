@@ -33,7 +33,94 @@
     </div>
   </nav>
 
+
 <%= yield %>
+
+
+<div class="container container-brand-dark">
+  <footer class="footer center">
+    <div class="row">
+    <div class="col-md-3 col-md-offset-1">
+      <div class="dropdown">
+        <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+          Español
+          <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+          <li><a href="#">English</a></li>
+          <li><a href="#">French</a></li>
+          <li><a href="#">German</a></li>
+          <li><a href="#">Greek</a></li>
+          <li><a href="#">Italian</a></li>
+          <li><a href="#">Russian</a></li>
+        </ul>
+      </div>
+      <div class="dropdown">
+        <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+          EUR
+          <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+          <li><a href="#">GBP</a></li>
+          <li><a href="#">HKD</a></li>
+          <li><a href="#">HRK</a></li>
+          <li><a href="#">HUF</a></li>
+          <li><a href="#">IDR</a></li>
+          <li><a href="#">ILS</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="col-md-2 col-md-offset-1 hide-sm">
+      <h5>Company</h5>
+      <ul class="list-layout">
+        <li><a href="#" class="link-contrast">Information</a></li>
+        <li><a href="#" class="link-contrast">Jobs</a></li>
+        <li><a href="#" class="link-contrast">Press</a></li>
+        <li><a href="#" class="link-contrast">BLog</a></li>
+        <li><a href="#" class="link-contrast">Help</a></li>
+        <li><a href="#" class="link-contrast">Policy</a></li>
+        <li><a href="#" class="link-contrast">Response to whatever</a></li>
+        <li><a href="#" class="link-contrast">Terms and conditions</a></li>
+      </ul>
+    </div>
+    <div class="col-md-2 hide-sm">
+      <h5>Discover Airbnb</h5>
+      <ul class="list-layout">
+        <li><a href="#" class="link-contrast">Trust and security</a></li>
+        <li><a href="#" class="link-contrast">Invite your friends</a></li>
+        <li><a href="#" class="link-contrast">Airbnb selection</a></li>
+        <li><a href="#" class="link-contrast">Mobile app</a></li>
+        <li><a href="#" class="link-contrast">Support New York City</a></li>
+        <li><a href="#" class="link-contrast">Business travel</a></li>
+        <li><a href="#" class="link-contrast">Sitemap</a></li>
+      </ul>
+    </div>
+    <div class="col-md-2 hide-sm">
+      <h5>Hosting</h5>
+      <ul class="list-layout">
+        <li><a href="#" class="link-contrast">Reasons to host</a></li>
+        <li><a href="#" class="link-contrast">Hospitality</a></li>
+        <li><a href="#" class="link-contrast">Be a responsible host</a></li>
+        <li><a href="#" class="link-contrast">Home security</a></li>
+      </ul>
+    </div>
+  </div>
+  <hr>
+    <div class="col-md-12 ">
+
+      <div class="social-icons text-center">
+        <h5>Follow us:</h5>
+        <ul class="list-layout list-inline">
+          <li><a href="#"><%= image_tag "facebook.png" %></a></li>
+          <li><a href="#"><%= image_tag "twitter.png" %></a></li>
+          <li><a href="#"><%= image_tag "linkedin.png" %></a></li>
+          <li><a href="#"><%= image_tag "vimeo.png" %></a></li>
+          <li><a href="#"><%= image_tag "pinterest.png" %></a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+  </div>
 
 </body>
 </html>
